@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+fun main(args: Array<String>) {
+   //continue o codigo
+    
+    val leitor = Scanner(System.`in`);
+
+  val H: Float = leitor.next().toFloat();
+
+  val P: Float = leitor.next().toFloat();
+
+
+
+   val media: Float = H / P;
+
+   println(String.format("%.2f", media));
+
+}
