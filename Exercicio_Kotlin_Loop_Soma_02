@@ -1,0 +1,10 @@
+fun main() {
+
+    var sum = 1
+    do {
+        println(sum)
+        sum += 1
+
+    } while (sum < 1000)
+    
+}
