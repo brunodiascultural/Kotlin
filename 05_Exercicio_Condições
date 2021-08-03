@@ -1,0 +1,10 @@
+fun main() {
+
+    val age = 20
+    if (age > 18) {
+        println("abrir tela maior de idade")
+    }    else {
+        println("abrir tela menor de idade")
+    }
+
+}
